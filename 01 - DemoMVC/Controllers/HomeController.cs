@@ -19,6 +19,19 @@ namespace DemoMVC.Controllers
             return View();
         }
 
+        public IActionResult Json()
+        {
+            return Json("{'nome': 'Allef'}");
+        }
+
+        public IActionResult File()
+        {
+            var fileBytes = System.IO.File.ReadAllBytes(@"E:\desenvolvimento\arquivo.txt");
+            var filename = "ola.txt";
+
+            return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, filename);
+        }
+
         public IActionResult Privacy()
         {
             return View();
