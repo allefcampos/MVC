@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\desenvolvimento\\cursos-desenvolvedor.io\\ASP.NET MVC Core\\DemoMVC\\DemoMVC.csproj": {}
+    "E:\\desenvolvimento\\cursos-desenvolvedor.io\\ASP.NET MVC Core\\01 - DemoMVC\\DemoMVC.csproj": {}
   },
   "projects": {
-    "E:\\desenvolvimento\\cursos-desenvolvedor.io\\ASP.NET MVC Core\\DemoMVC\\DemoMVC.csproj": {
+    "E:\\desenvolvimento\\cursos-desenvolvedor.io\\ASP.NET MVC Core\\01 - DemoMVC\\DemoMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\desenvolvimento\\cursos-desenvolvedor.io\\ASP.NET MVC Core\\DemoMVC\\DemoMVC.csproj",
+        "projectUniqueName": "E:\\desenvolvimento\\cursos-desenvolvedor.io\\ASP.NET MVC Core\\01 - DemoMVC\\DemoMVC.csproj",
         "projectName": "DemoMVC",
-        "projectPath": "E:\\desenvolvimento\\cursos-desenvolvedor.io\\ASP.NET MVC Core\\DemoMVC\\DemoMVC.csproj",
+        "projectPath": "E:\\desenvolvimento\\cursos-desenvolvedor.io\\ASP.NET MVC Core\\01 - DemoMVC\\DemoMVC.csproj",
         "packagesPath": "C:\\Users\\ALEFF\\.nuget\\packages\\",
-        "outputPath": "E:\\desenvolvimento\\cursos-desenvolvedor.io\\ASP.NET MVC Core\\DemoMVC\\obj\\",
+        "outputPath": "E:\\desenvolvimento\\cursos-desenvolvedor.io\\ASP.NET MVC Core\\01 - DemoMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ALEFF\\AppData\\Roaming\\NuGet\\NuGet.Config",

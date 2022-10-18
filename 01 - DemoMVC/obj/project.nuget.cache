@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q6NjYXP5yrHLnAZn3zPRIEYOkpLTc7WUguVlayYffy3U2Ea+9t8aEKigQ1KRH7ybKYfTGlNg+UPRDREuYdByGQ==",
+  "dgSpecHash": "BLpNDDOrXbHIMPe94Jmx6LKkDEUhiqhouSWmNn27RsXVd+HDKuYAc5H3P2svEo7V9EIqIPQd9a5u32ZwSnLR2w==",
   "success": true,
-  "projectFilePath": "E:\\desenvolvimento\\cursos-desenvolvedor.io\\ASP.NET MVC Core\\DemoMVC\\DemoMVC.csproj",
+  "projectFilePath": "E:\\desenvolvimento\\cursos-desenvolvedor.io\\ASP.NET MVC Core\\01 - DemoMVC\\DemoMVC.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
