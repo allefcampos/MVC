@@ -1,7 +1,9 @@
 ﻿using DemoMVC.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System;
 using System.Diagnostics;
+using System.Linq;
 
 namespace DemoMVC.Controllers
 {
@@ -16,7 +18,17 @@ namespace DemoMVC.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var filme = new Filme
+            {
+                Titulo = "Oi",
+                DataLancamento = DateTime.Now,
+                Genero = null,
+                Avaliacao = 10,
+                Valor = 20000
+            };
+
+            return RedirectToAction("Privacy", filme);
+            //return View();
         }
 
         public IActionResult Json()
@@ -32,8 +44,18 @@ namespace DemoMVC.Controllers
             return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, filename);
         }
 
-        public IActionResult Privacy()
+        public IActionResult Privacy(Filme filme)
         {
+            if (ModelState.IsValid)
+            {
+                
+            }
+
+            foreach(var error in ModelState.Values.SelectMany(m  => m.Errors))
+            {
+                Console.WriteLine(error.ErrorMessage);
+            }
+
             return View();
         }
 
