@@ -1,5 +1,4 @@
-﻿using System.Threading.Tasks;
-using Microsoft.AspNetCore.Razor.TagHelpers;
+﻿using Microsoft.AspNetCore.Razor.TagHelpers;
 
 namespace DevIO.UI.Site.Extensions
 {
@@ -9,6 +8,7 @@ namespace DevIO.UI.Site.Extensions
         public override async Task ProcessAsync(TagHelperContext context, TagHelperOutput output)
         {
             output.TagName = "a";
+            // Conteudo que está no meio da tag.
             var content = await output.GetChildContentAsync();
             var target = content.GetContent() + "@" + EmailDomain;
             output.Attributes.SetAttribute("href", "mailto:" + target);
